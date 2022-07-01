@@ -1,14 +1,17 @@
 name: deploy2
 
 on:
+  push:
   workflow_dispatch:
     inputs:
       name:
-        description: name of the runner
+        description: name of the runner venkat
         required: true
+        default: "venkat"
       name2:
         description: optional
         required: false
+        default: "na"
 
 jobs:
   testing2:
