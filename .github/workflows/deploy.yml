@@ -1,7 +1,6 @@
 name: deploy2
 
 on:
-  push:
   workflow_dispatch:
     inputs:
       name:
@@ -15,7 +14,7 @@ on:
 
 jobs:
   testing2:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-la
     steps:
       - name: print test2
         run: echo "test2"
