@@ -15,7 +15,7 @@ on:
 jobs:
   testing2:
     runs-on: ubuntu-latest
-    ste:
+    steps:
       - name: print test2
         run: echo "test2"
       - name: shell commands
